@@ -6,20 +6,14 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
-        group: userservice
-        namespace: 1a623f49-6d58-4d59-96fb-b404046f023d
+        server-addr: 152.136.163.72:8849
+        namespace: bc695354-fe0d-4daa-89ca-0d4814d85059
+        group: clod
       config:
-        server-addr: 127.0.0.1:8848
-        group: userservice
-        namespace: 1a623f49-6d58-4d59-96fb-b404046f023d
+        server-addr: 152.136.163.72:8849
+        namespace: bc695354-fe0d-4daa-89ca-0d4814d85059
         file-extension: yaml
+        group: userservice
 
-userservice:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule  # 负载均衡规则
-ribbon:
-  eager-load:
-    enabled: true # 开启饥饿加载
-    clients: # 指定饥饿加载的服务名称
-      - userservice
+
+

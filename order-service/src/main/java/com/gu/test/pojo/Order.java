@@ -1,5 +1,6 @@
-package com.gu.orderservice.pojo;
+package com.gu.test.pojo;
 
+import com.gu.feign.pojo.User;
 import lombok.Data;
 
 @Data

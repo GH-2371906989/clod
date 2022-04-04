@@ -1,7 +1,7 @@
-package com.gu.orderservice.web;
+package com.gu.test.web;
 
-import com.gu.orderservice.pojo.Order;
-import com.gu.orderservice.service.OrderService;
+import com.gu.test.pojo.Order;
+import com.gu.test.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;

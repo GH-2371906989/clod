@@ -1,4 +1,4 @@
-package com.gu.orderservice.pojo;
+package com.gu.feign.pojo;
 
 import lombok.Data;
 

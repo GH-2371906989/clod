@@ -9,13 +9,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="user-service" />
         <module name="order-service" />
+        <module name="test" />
+        <module name="Feign-API" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Feign-API" options="-parameters" />
       <module name="myservice" options="-parameters" />
       <module name="order-service" options="-parameters" />
+      <module name="test" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>

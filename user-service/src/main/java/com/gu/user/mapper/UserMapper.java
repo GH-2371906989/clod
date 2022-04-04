@@ -8,6 +8,6 @@ import org.apache.ibatis.annotations.Select;
 @Mapper
 public interface UserMapper extends BaseMapper<User> {
     
-    @Select("select * from cloud_user.tb_user where id = #{id}")
+    @Select("select * from tb_user where id = #{id}")
     User findById(@Param("id") Long id);
 }
