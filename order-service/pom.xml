@@ -74,8 +74,16 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-
-
+        <!--AOP-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <!--json-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
         <!--hk-->
         <dependency>
             <groupId>com.zaxxer</groupId>

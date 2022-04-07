@@ -3,8 +3,53 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="33dc07aa-647c-48a9-a0de-173e65b97839" name="默认的" comment="" />
+    <list default="true" id="33dc07aa-647c-48a9-a0de-173e65b97839" name="默认的" comment="gateway">
+      <change afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/gu/gateway/GatewayServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/gu/gateway/config/RestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/gu/gateway/config/logs/LogApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/gu/gateway/config/logs/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/gu/gateway/GatewayServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/gu/gateway/config/RestConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/gu/gateway/config/logs/LogApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/gu/gateway/config/logs/LogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/config/logs/LogApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/config/logs/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/gu/user/config/logs/LogApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/gu/user/config/logs/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/217ae3a2-b7fc-4e0b-938d-980dc118204b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/217ae3a2-b7fc-4e0b-938d-980dc118204b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/gu/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/gu/user/web/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +58,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,7 +88,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Feign-API/src/main/java/com/gu/feign" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway-service/src/main/java/com/gu/gateway" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,30 +99,43 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.gu.test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gu.gateway.web" />
+      <recent name="com.gu.gateway" />
       <recent name="com.gu.test.client" />
       <recent name="com.gu.orderservice.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\clod\gateway-service\src\main\java\com\gu\gateway" />
+      <recent name="D:\project\clod\gateway-service\src\main\resources" />
+      <recent name="D:\project\clod\user-service\src\main\java\com\gu\user\config" />
       <recent name="D:\project\clod\Feign-API\src\main\java\com\gu\feign" />
       <recent name="D:\project\clod\test\src\main\java\com\gu\orderservice" />
-      <recent name="D:\project\clod\test\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gu.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gu.gateway.GatewayServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,6 +177,7 @@
       <list>
         <item itemvalue="Spring Boot.OrderServiceApplication" />
         <item itemvalue="Spring Boot.UserServiceApplication" />
+        <item itemvalue="Spring Boot.GatewayServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -132,11 +192,30 @@
       <workItem from="1648645705395" duration="9619000" />
       <workItem from="1649031799569" duration="3845000" />
       <workItem from="1649056863356" duration="5767000" />
+      <workItem from="1649077156143" duration="4601000" />
+      <workItem from="1649204492544" duration="117000" />
+      <workItem from="1649234994164" duration="9884000" />
+      <workItem from="1649291785388" duration="615000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="gateway" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1468" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649060222704">
@@ -163,53 +242,65 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1697" y="61" key="#新建_Docker_连接/0.0.2560.1400@0.0.2560.1400" timestamp="1649032112858" />
-    <state x="1700" y="454" key="FileChooserDialogImpl" timestamp="1648646311880">
+    <state x="1499" y="266" width="969" height="867" key="CommitChangelistDialog2" timestamp="1649292349679">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1700" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1648646311880" />
-    <state width="1234" height="384" key="GridCell.Tab.0.bottom" timestamp="1649062894614">
+    <state x="1499" y="266" width="969" height="867" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1649292349679" />
+    <state x="1700" y="454" key="FileChooserDialogImpl" timestamp="1649291974104">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="384" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1649062894614" />
-    <state width="1234" height="384" key="GridCell.Tab.0.center" timestamp="1649062894614">
+    <state x="1700" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1649291974104" />
+    <state width="854" height="584" key="GridCell.Tab.0.bottom" timestamp="1649245573529">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="384" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1649062894614" />
-    <state width="1234" height="384" key="GridCell.Tab.0.left" timestamp="1649062894614">
+    <state width="854" height="584" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573529" />
+    <state width="854" height="584" key="GridCell.Tab.0.center" timestamp="1649245573529">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="384" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1649062894614" />
-    <state width="1234" height="384" key="GridCell.Tab.0.right" timestamp="1649062894614">
+    <state width="854" height="584" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573529" />
+    <state width="854" height="584" key="GridCell.Tab.0.left" timestamp="1649245573529">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="384" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1649062894614" />
-    <state width="1234" height="384" key="GridCell.Tab.1.bottom" timestamp="1649062894614">
+    <state width="854" height="584" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573529" />
+    <state width="854" height="584" key="GridCell.Tab.0.right" timestamp="1649245573529">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="384" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1649062894614" />
-    <state width="1234" height="384" key="GridCell.Tab.1.center" timestamp="1649062894614">
+    <state width="854" height="584" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573529" />
+    <state width="854" height="584" key="GridCell.Tab.1.bottom" timestamp="1649245573530">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="384" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1649062894614" />
-    <state width="1234" height="384" key="GridCell.Tab.1.left" timestamp="1649062894614">
+    <state width="854" height="584" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573530" />
+    <state width="854" height="584" key="GridCell.Tab.1.center" timestamp="1649245573530">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="384" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1649062894614" />
-    <state width="1234" height="384" key="GridCell.Tab.1.right" timestamp="1649062894614">
+    <state width="854" height="584" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573530" />
+    <state width="854" height="584" key="GridCell.Tab.1.left" timestamp="1649245573529">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="384" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1649062894614" />
+    <state width="854" height="584" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573529" />
+    <state width="854" height="584" key="GridCell.Tab.1.right" timestamp="1649245573530">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="854" height="584" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573530" />
     <state width="152" height="477" key="HiddenNamespacesPopup" timestamp="1649060227906">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="152" height="477" key="HiddenNamespacesPopup/0.0.2560.1400@0.0.2560.1400" timestamp="1649060227906" />
-    <state x="1400" y="277" key="SettingsEditor" timestamp="1648646439157">
+    <state x="1396" y="358" key="Maven.ArtifactSearchDialog" timestamp="1649239728089">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1400" y="277" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1648646439157" />
-    <state x="1450" y="363" key="new project wizard" timestamp="1649032622009">
+    <state x="1396" y="358" key="Maven.ArtifactSearchDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1649239728089" />
+    <state x="1400" y="277" key="SettingsEditor" timestamp="1649292032900">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1450" y="363" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1649032622009" />
+    <state x="1400" y="277" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1649292032900" />
+    <state x="1834" y="611" key="VCS.ChangelistChooser" timestamp="1649292271793">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1834" y="611" key="VCS.ChangelistChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1649292271793" />
+    <state x="1450" y="363" key="new project wizard" timestamp="1649241721534">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1450" y="363" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1649241721534" />
   </component>
 </project>

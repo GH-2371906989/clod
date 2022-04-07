@@ -18,7 +18,7 @@ public class OrderService {
     private UserClient userClient;
 
     @Autowired
-    private RestTemplate restTemplate;
+    private RestTemplate 不需要猪肉吧;
 
 
 

@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: gatewayservice
+  profiles:
+    active: dev
+  cloud:
+    gateway:
+      routes:
+        - id: user-service
+          uri: lb://userservice
+          predicates:
+            - Path=/user/**
+        - id: order-service
+          uri: lb://orderservice
+          predicates:
+            - Path=/order/**
+    nacos:
+      server-addr: 152.136.163.72:8849
+      discovery:
+        namespace: bc695354-fe0d-4daa-89ca-0d4814d85059
+        group: clod
+      config:
+        server-addr: 152.136.163.72:8849
+        namespace: bc695354-fe0d-4daa-89ca-0d4814d85059
+        file-extension: yaml
+        group: gatewayservice
+
+#userservice:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule  # 负载均衡规则
+#ribbon:
+#  eager-load:
+#    enabled: true # 开启饥饿加载
+#    clients: # 指定饥饿加载的服务名称
+#      - gatewayservice
+

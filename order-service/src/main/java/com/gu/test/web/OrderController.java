@@ -1,5 +1,6 @@
 package com.gu.test.web;
 
+import com.gu.test.config.logs.LogApi;
 import com.gu.test.pojo.Order;
 import com.gu.test.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/order")
 @RefreshScope
+@LogApi(logParameters = true)
 public class OrderController {
     @Value("${user.password}")
     private String password;

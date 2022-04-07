@@ -1,5 +1,6 @@
 package com.gu.user.web;
 
+import com.gu.user.config.logs.LogApi;
 import com.gu.user.pojo.User;
 import com.gu.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/user")
 @RefreshScope
+@LogApi(logParameters = true )
 public class UserController {
 
     @Autowired
