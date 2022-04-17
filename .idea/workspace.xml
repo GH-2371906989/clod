@@ -22,32 +22,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33dc07aa-647c-48a9-a0de-173e65b97839" name="默认的" comment="gateway">
-      <change afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/gu/gateway/GatewayServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/gu/gateway/config/RestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/gu/gateway/config/logs/LogApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/gu/gateway/config/logs/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/gu/gateway/GatewayServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/gu/gateway/config/RestConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/gu/gateway/config/logs/LogApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/gu/gateway/config/logs/LogAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/config/logs/LogApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/config/logs/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/gu/user/config/logs/LogApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/gu/user/config/logs/LogAspect.java" afterDir="false" />
+    <list default="true" id="33dc07aa-647c-48a9-a0de-173e65b97839" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/gu/common/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/config/common/AppRunListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/config/common/AppStopListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/gu/user/File/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/gu/user/config/amqp/FanoutConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/gu/user/listener/RabbitMqListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/gu/user/listener/RabbitMqTTlListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/217ae3a2-b7fc-4e0b-938d-980dc118204b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/217ae3a2-b7fc-4e0b-938d-980dc118204b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feign-API/src/main/java/com/gu/feign/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Feign-API/src/main/java/com/gu/feign/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feign-API/target/classes/com/gu/feign/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Feign-API/target/classes/com/gu/feign/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/pojo/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/gu/test/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/gu/test/OrderServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/test/java/com/gu/test/OrderServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/gu/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/gu/user/web/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +86,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway-service/src/main/java/com/gu/gateway" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../drools/droolsservice" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -100,6 +98,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -126,16 +127,48 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
-    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="gateway-service" />
+  <component name="RunManager" selected="应用程序.FileUtil">
+    <configuration name="FileUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gu.user.File.FileUtil" />
+      <module name="user-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gu.gateway.*" />
+          <option name="PATTERN" value="com.gu.user.File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gu.gateway.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplicationTests.contextttl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.gu.test.OrderServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextttl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplicationTests.contextttl1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.gu.test.OrderServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextttl1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,9 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.FileUtil" />
         <item itemvalue="Spring Boot.OrderServiceApplication" />
         <item itemvalue="Spring Boot.UserServiceApplication" />
-        <item itemvalue="Spring Boot.GatewayServiceApplication" />
+        <item itemvalue="JUnit.OrderServiceApplicationTests.contextttl1" />
+        <item itemvalue="JUnit.OrderServiceApplicationTests.contextttl" />
       </list>
     </recent_temporary>
   </component>
@@ -195,8 +230,26 @@
       <workItem from="1649077156143" duration="4601000" />
       <workItem from="1649204492544" duration="117000" />
       <workItem from="1649234994164" duration="9884000" />
-      <workItem from="1649291785388" duration="615000" />
+      <workItem from="1649291785388" duration="1900000" />
+      <workItem from="1649326333353" duration="7000" />
+      <workItem from="1649326397238" duration="1234000" />
+      <workItem from="1649415413302" duration="649000" />
+      <workItem from="1649577322917" duration="855000" />
+      <workItem from="1649747864449" duration="2941000" />
+      <workItem from="1649815243231" duration="14300000" />
+      <workItem from="1649899232723" duration="7982000" />
+      <workItem from="1649929307101" duration="9209000" />
+      <workItem from="1649984855437" duration="20787000" />
+      <workItem from="1650072699854" duration="125000" />
     </task>
+    <task id="LOCAL-00001" summary="gateway">
+      <created>1649292468430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649292468430</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +265,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gateway" />
@@ -222,10 +276,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1468" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1649060222704" />
-    <state x="1635" y="626" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1649035006843">
+    <state x="1635" y="626" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1649850001194">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1635" y="626" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1649035006843" />
+    <state x="1635" y="626" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1649850001194" />
     <state x="1712" y="583" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1649035008970">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -242,46 +296,50 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1697" y="61" key="#新建_Docker_连接/0.0.2560.1400@0.0.2560.1400" timestamp="1649032112858" />
-    <state x="1499" y="266" width="969" height="867" key="CommitChangelistDialog2" timestamp="1649292349679">
+    <state x="1575" y="357" key="#部署" timestamp="1649292432447">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1499" y="266" width="969" height="867" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1649292349679" />
-    <state x="1700" y="454" key="FileChooserDialogImpl" timestamp="1649291974104">
+    <state x="1575" y="357" key="#部署/0.0.2560.1400@0.0.2560.1400" timestamp="1649292432447" />
+    <state x="1499" y="266" width="969" height="867" key="CommitChangelistDialog2" timestamp="1649292467242">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1700" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1649291974104" />
-    <state width="854" height="584" key="GridCell.Tab.0.bottom" timestamp="1649245573529">
+    <state x="1499" y="266" width="969" height="867" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1649292467242" />
+    <state x="1700" y="454" key="FileChooserDialogImpl" timestamp="1649324570028">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="854" height="584" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573529" />
-    <state width="854" height="584" key="GridCell.Tab.0.center" timestamp="1649245573529">
+    <state x="1700" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1649324570028" />
+    <state width="1507" height="488" key="GridCell.Tab.0.bottom" timestamp="1650034166458">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="854" height="584" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573529" />
-    <state width="854" height="584" key="GridCell.Tab.0.left" timestamp="1649245573529">
+    <state width="1507" height="488" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1650034166458" />
+    <state width="1507" height="488" key="GridCell.Tab.0.center" timestamp="1650034166457">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="854" height="584" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573529" />
-    <state width="854" height="584" key="GridCell.Tab.0.right" timestamp="1649245573529">
+    <state width="1507" height="488" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1650034166457" />
+    <state width="1507" height="488" key="GridCell.Tab.0.left" timestamp="1650034166457">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="854" height="584" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573529" />
-    <state width="854" height="584" key="GridCell.Tab.1.bottom" timestamp="1649245573530">
+    <state width="1507" height="488" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1650034166457" />
+    <state width="1507" height="488" key="GridCell.Tab.0.right" timestamp="1650034166457">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="854" height="584" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573530" />
-    <state width="854" height="584" key="GridCell.Tab.1.center" timestamp="1649245573530">
+    <state width="1507" height="488" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1650034166457" />
+    <state width="1507" height="488" key="GridCell.Tab.1.bottom" timestamp="1650034166458">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="854" height="584" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573530" />
-    <state width="854" height="584" key="GridCell.Tab.1.left" timestamp="1649245573529">
+    <state width="1507" height="488" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1650034166458" />
+    <state width="1507" height="488" key="GridCell.Tab.1.center" timestamp="1650034166458">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="854" height="584" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573529" />
-    <state width="854" height="584" key="GridCell.Tab.1.right" timestamp="1649245573530">
+    <state width="1507" height="488" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1650034166458" />
+    <state width="1507" height="488" key="GridCell.Tab.1.left" timestamp="1650034166458">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="854" height="584" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1649245573530" />
+    <state width="1507" height="488" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1650034166458" />
+    <state width="1507" height="488" key="GridCell.Tab.1.right" timestamp="1650034166458">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1507" height="488" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1650034166458" />
     <state width="152" height="477" key="HiddenNamespacesPopup" timestamp="1649060227906">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -298,9 +356,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1834" y="611" key="VCS.ChangelistChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1649292271793" />
-    <state x="1450" y="363" key="new project wizard" timestamp="1649241721534">
+    <state x="1512" y="432" key="Vcs.Push.Dialog.v2" timestamp="1649292476098">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1450" y="363" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1649241721534" />
+    <state x="1512" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1649292476098" />
+    <state x="1450" y="363" key="new project wizard" timestamp="1649829792456">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1450" y="363" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1649829792456" />
   </component>
 </project>

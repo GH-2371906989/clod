@@ -93,8 +93,13 @@
         <dependency>
             <groupId>gu.com</groupId>
             <artifactId>Feign-API</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!--公共类-->
+        <dependency>
+            <groupId>com.gu</groupId>
+            <artifactId>common</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

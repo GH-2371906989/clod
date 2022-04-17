@@ -10,6 +10,8 @@ spring:
           uri: lb://userservice
           predicates:
             - Path=/user/**
+          filters: # 过滤器
+            - AddRequestHeader=Truth, Itcast is freaking awesome! # 添加请求头
         - id: order-service
           uri: lb://orderservice
           predicates:
